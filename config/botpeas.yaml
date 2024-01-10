@@ -38,6 +38,7 @@ DESCRIPTION_KEYWORDS_I:
 - redux
 - webpack
 - lodash
+- symfony
 
 DESCRIPTION_KEYWORDS:
 - ThisIsACaseSensitiveExample
@@ -69,6 +70,7 @@ PRODUCT_KEYWORDS_I:
 - redux
 - webpack
 - lodash
+- symfony
 
 PRODUCT_KEYWORDS:
 - ThisIsACaseSensitiveExample
