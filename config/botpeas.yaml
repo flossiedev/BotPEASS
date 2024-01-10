@@ -18,6 +18,26 @@ DESCRIPTION_KEYWORDS_I:
 - kubernetes
 - " lxc "
 - podman
+- ubuntu
+- php
+- curl
+- caddy
+- openssl
+- ssh
+- thumbor
+- mysql
+- nginx
+- aws
+- redis
+- solr
+- munin
+- graylog
+- nagios
+- ossec
+- react
+- redux
+- webpack
+- lodash
 
 DESCRIPTION_KEYWORDS:
 - ThisIsACaseSensitiveExample
@@ -29,6 +49,26 @@ PRODUCT_KEYWORDS_I:
 - lxc
 - podman
 - container
+- ubuntu
+- php
+- curl
+- caddy
+- openssl
+- ssh
+- thumbor
+- mysql
+- nginx
+- aws
+- redis
+- solr
+- munin
+- graylog
+- nagios
+- ossec
+- react
+- redux
+- webpack
+- lodash
 
 PRODUCT_KEYWORDS:
 - ThisIsACaseSensitiveExample
