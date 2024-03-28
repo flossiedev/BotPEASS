@@ -23,6 +23,10 @@ DESCRIPTION_KEYWORDS_I = []
 DESCRIPTION_KEYWORDS = []
 PRODUCT_KEYWORDS_I = []
 PRODUCT_KEYWORDS = []
+DESCRIPTION_KEYWORDS_FILTER_I = []
+DESCRIPTION_KEYWORDS_FILTER = []
+PRODUCT_KEYWORDS_FILTER_I = []
+PRODUCT_KEYWORDS_FILTER = []
 
 
 class Time_Type(Enum):
@@ -38,6 +42,8 @@ def load_keywords():
     global ALL_VALID
     global DESCRIPTION_KEYWORDS_I, DESCRIPTION_KEYWORDS
     global PRODUCT_KEYWORDS_I, PRODUCT_KEYWORDS
+    global DESCRIPTION_KEYWORDS_FILTER_I, DESCRIPTION_KEYWORDS_FILTER
+    global PRODUCT_KEYWORDS_FILTER_I, PRODUCT_KEYWORDS_FILTER
 
     with open(KEYWORDS_CONFIG_PATH, 'r') as yaml_file:
         keywords_config = yaml.safe_load(yaml_file)
@@ -47,6 +53,10 @@ def load_keywords():
         DESCRIPTION_KEYWORDS = keywords_config["DESCRIPTION_KEYWORDS"]
         PRODUCT_KEYWORDS_I = keywords_config["PRODUCT_KEYWORDS_I"]
         PRODUCT_KEYWORDS = keywords_config["PRODUCT_KEYWORDS"]
+        DESCRIPTION_KEYWORDS_FILTER_I = keywords_config["DESCRIPTION_KEYWORDS_FILTER_I"]
+        DESCRIPTION_KEYWORDS_FILTER = keywords_config["DESCRIPTION_KEYWORDS_FILTER"]
+        PRODUCT_KEYWORDS_FILTER_I = keywords_config["PRODUCT_KEYWORDS_FILTER_I"]
+        PRODUCT_KEYWORDS_FILTER = keywords_config["PRODUCT_KEYWORDS_FILTER"]
 
 
 def load_lasttimes():
@@ -140,8 +150,10 @@ def filter_cves(cves: list, last_time: datetime.datetime, tt_filter: Time_Type) 
         if cve_time > last_time:
             if ALL_VALID or is_summ_keyword_present(cve["summary"]) or \
                 is_prod_keyword_present(str(cve["vulnerable_configuration"])):
+                if ALL_VALID or not (is_summ_keyword_filter_present(cve["summary"]) and \
+                    is_prod_keyword_filter_present(str(cve["vulnerable_configuration"]))):
                 
-                filtered_cves.append(cve)
+                    filtered_cves.append(cve)
 
         if cve_time > new_last_time:
             new_last_time = cve_time
@@ -155,6 +167,11 @@ def is_summ_keyword_present(summary: str):
     return any(w in summary for w in DESCRIPTION_KEYWORDS) or \
             any(w.lower() in summary.lower() for w in DESCRIPTION_KEYWORDS_I)
 
+def is_summ_keyword_filter_present(summary: str):
+    ''' Given the summary check if any keyword filter is present '''
+
+    return any(w in summary for w in DESCRIPTION_KEYWORDS_FILTER) or \
+            any(w.lower() in summary.lower() for w in DESCRIPTION_KEYWORDS_FILTER_I)
 
 def is_prod_keyword_present(products: str):
     ''' Given the summary check if any keyword is present '''
@@ -162,6 +179,11 @@ def is_prod_keyword_present(products: str):
     return any(w in products for w in PRODUCT_KEYWORDS) or \
             any(w.lower() in products.lower() for w in PRODUCT_KEYWORDS_I)
 
+def is_prod_keyword_filter_present(products: str):
+    ''' Given the summary check if any keyword filter is present '''
+    
+    return any(w in products for w in PRODUCT_KEYWORDS_FILTER) or \
+            any(w.lower() in products.lower() for w in PRODUCT_KEYWORDS_FILTER_I)
 
 def search_exploits(cve: str) -> list:
     ''' Given a CVE it will search for public exploits to abuse it '''

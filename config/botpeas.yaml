@@ -43,6 +43,12 @@ DESCRIPTION_KEYWORDS_I:
 DESCRIPTION_KEYWORDS:
 - ThisIsACaseSensitiveExample
 
+DESCRIPTION_KEYWORDS_FILTER:
+- Ampache
+
+DESCRIPTION_KEYWORDS_FILTER_I:
+- thisisacaseinsensitiveexample
+
 PRODUCT_KEYWORDS_I:
 - sudo
 - docker
@@ -74,4 +80,10 @@ PRODUCT_KEYWORDS_I:
 
 PRODUCT_KEYWORDS:
 - ThisIsACaseSensitiveExample
+
+PRODUCT_KEYWORDS_FILTER_I:
+- thisisacaseinsensitiveexample
+
+PRODUCT_KEYWORDS_FILTER:
+- Ampache
 
