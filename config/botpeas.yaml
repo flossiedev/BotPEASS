@@ -30,10 +30,6 @@ DESCRIPTION_KEYWORDS_I:
 - aws
 - redis
 - solr
-- munin
-- graylog
-- nagios
-- ossec
 - react
 - redux
 - webpack
@@ -44,10 +40,113 @@ DESCRIPTION_KEYWORDS:
 - ThisIsACaseSensitiveExample
 
 DESCRIPTION_KEYWORDS_FILTER:
-- Ampache
+- ThisIsACaseSensitiveExample
 
 DESCRIPTION_KEYWORDS_FILTER_I:
-- thisisacaseinsensitiveexample
+- code-projects
+- nuuo
+- Ampache
+- campcodes
+- wordpress
+- sourcecodester
+- DedeCMS
+- Dell
+- Apache Airflow
+- arubaos
+- ruijie
+- wolfssh
+- phpmyfaq
+- home-made.io
+- oroplatform
+- lepton
+- hgw
+- cyberaz0r
+- gibbon
+- buddypress
+- WooCommerce
+- CardOS
+- CIGESv2
+- Bref
+- FreeScout
+- SeaCMS
+- Niushop
+- Netcome
+- FileMaker
+- dzzoffice
+- VvvebJs
+- Sentrifugo
+- Apollo Router
+- RSSHub
+- Artica-Proxy
+- ZhiCms
+- Panabit
+- MISP
+- tramyardg
+- MyPrestaModules
+- Best-Kit
+- Elspec
+- Netentsec
+- Open Source Medicine Ordering System
+- Employee Management System
+- Fujian Kelixin
+- BestWebSoft
+- LDAP Account Manager
+- flusity
+- kishor-23
+- 74CMS
+- MAGESH-K21
+- RaspAP
+- Snowflake Hive
+- Surya2Developer
+- Greek Universities Network
+- eyoucms
+- Healthcare-Chatbot
+- Phpgurukul
+- vantage6
+- TurboBoost
+- Webedition CMS
+- Vinchin
+- PaperCut
+- Student Enrollment In PHP
+- Piwigo
+- CMS Made Simple
+- TIBCO Software
+- Apache Pulsar Proxy
+- FreeScout
+- Gacjie
+- Vela
+- My Food Recipe
+- Student Information Chatbot
+- keerti1924
+- CodeAstro
+- boyiddha
+- Hotel Booking Management
+- Hospital Management System
+- Byzro
+- FreeRTOS
+- Devolutions
+- Arista
+- MediaTek
+- Stupid Simple CMS
+- Nway
+- Laragon
+- SocialMediaWebsite
+- zhimengzhe
+- Element Android
+- Dataease
+- Simple Student Attendance System
+- Projectworlds
+- open-emr
+- osuuu
+- Subrion
+- ZenML
+- Ctcms
+- Oozie Workflow Scheduler
+- Beijing Baichuo
+- Apache James
+- AnythingLLM
+- Dynamic Lab Management System
+- Demososo
 
 PRODUCT_KEYWORDS_I:
 - sudo
@@ -68,10 +167,6 @@ PRODUCT_KEYWORDS_I:
 - aws
 - redis
 - solr
-- munin
-- graylog
-- nagios
-- ossec
 - react
 - redux
 - webpack
@@ -82,8 +177,112 @@ PRODUCT_KEYWORDS:
 - ThisIsACaseSensitiveExample
 
 PRODUCT_KEYWORDS_FILTER_I:
-- thisisacaseinsensitiveexample
+- code-projects
+- nuuo
+- Ampache
+- campcodes
+- wordpress
+- sourcecodester
+- DedeCMS
+- Dell
+- Apache Airflow
+- arubaos
+- ruijie
+- wolfssh
+- phpmyfaq
+- home-made.io
+- oroplatform
+- lepton
+- hgw
+- cyberaz0r
+- gibbon
+- buddypress
+- WooCommerce
+- CardOS
+- CIGESv2
+- Bref
+- FreeScout
+- SeaCMS
+- Niushop
+- Netcome
+- FileMaker
+- dzzoffice
+- VvvebJs
+- Sentrifugo
+- Apollo Router
+- RSSHub
+- Artica-Proxy
+- ZhiCms
+- Panabit
+- MISP
+- tramyardg
+- MyPrestaModules
+- Best-Kit
+- Elspec
+- Netentsec
+- Open Source Medicine Ordering System
+- Employee Management System
+- Fujian Kelixin
+- BestWebSoft
+- LDAP Account Manager
+- flusity
+- kishor-23
+- 74CMS
+- MAGESH-K21
+- RaspAP
+- Snowflake Hive
+- Surya2Developer
+- Greek Universities Network
+- eyoucms
+- Healthcare-Chatbot
+- Phpgurukul
+- vantage6
+- TurboBoost
+- Webedition CMS
+- Vinchin
+- PaperCut
+- Student Enrollment In PHP
+- Piwigo
+- CMS Made Simple
+- TIBCO Software
+- Apache Pulsar Proxy
+- FreeScout
+- Gacjie
+- Vela
+- My Food Recipe
+- Student Information Chatbot
+- keerti1924
+- CodeAstro
+- boyiddha
+- Hotel Booking Management
+- Hospital Management System
+- Byzro
+- FreeRTOS
+- Devolutions
+- Arista
+- MediaTek
+- Stupid Simple CMS
+- Nway
+- Laragon
+- SocialMediaWebsite
+- zhimengzhe
+- Element Android
+- Dataease
+- Simple Student Attendance System
+- Projectworlds
+- open-emr
+- osuuu
+- Subrion
+- ZenML
+- Ctcms
+- Oozie Workflow Scheduler
+- Beijing Baichuo
+- Apache James
+- AnythingLLM
+- Dynamic Lab Management System
+- Demososo
 
 PRODUCT_KEYWORDS_FILTER:
-- Ampache
+- ThisIsACaseSensitiveExample
+
 
