@@ -26,7 +26,6 @@ DESCRIPTION_KEYWORDS_I:
 - ssh
 - thumbor
 - mysql
-- nginx
 - aws
 - redis
 - solr
@@ -47,8 +46,8 @@ DESCRIPTION_KEYWORDS_FILTER_I:
 - nuuo
 - Ampache
 - campcodes
-- wordpress
-- sourcecodester
+- WordPress
+- SourceCodester
 - DedeCMS
 - Dell
 - Apache Airflow
@@ -147,6 +146,14 @@ DESCRIPTION_KEYWORDS_FILTER_I:
 - AnythingLLM
 - Dynamic Lab Management System
 - Demososo
+- itsourcecode
+- Laravel
+- oFono
+- Kubean
+- mailcow
+- Roundcube
+- microweber
+- PuneethReddyHC
 
 PRODUCT_KEYWORDS_I:
 - sudo
@@ -163,7 +170,6 @@ PRODUCT_KEYWORDS_I:
 - ssh
 - thumbor
 - mysql
-- nginx
 - aws
 - redis
 - solr
@@ -181,8 +187,8 @@ PRODUCT_KEYWORDS_FILTER_I:
 - nuuo
 - Ampache
 - campcodes
-- wordpress
-- sourcecodester
+- WordPress
+- SourceCodester
 - DedeCMS
 - Dell
 - Apache Airflow
@@ -281,6 +287,14 @@ PRODUCT_KEYWORDS_FILTER_I:
 - AnythingLLM
 - Dynamic Lab Management System
 - Demososo
+- itsourcecode
+- Laravel
+- oFono
+- Kubean
+- mailcow
+- Roundcube
+- microweber
+- PuneethReddyHC
 
 PRODUCT_KEYWORDS_FILTER:
 - ThisIsACaseSensitiveExample
