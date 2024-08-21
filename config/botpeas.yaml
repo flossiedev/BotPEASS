@@ -181,7 +181,13 @@ DESCRIPTION_KEYWORDS_FILTER_I:
 - Ericsson
 - TeamCity
 - Xyzscripts
-
+- Pligg CMS
+- Keyfactor Command
+- Hotel Management System
+- School Management System
+- Warehouse Inventory System
+- Pharmacy Management System
+- Blood Bank And Donation Management System
 
 PRODUCT_KEYWORDS_I:
 - sudo
@@ -350,6 +356,13 @@ PRODUCT_KEYWORDS_FILTER_I:
 - Ericsson
 - TeamCity
 - Xyzscripts
+- Pligg CMS
+- Keyfactor Command
+- Hotel Management System
+- School Management System
+- Warehouse Inventory System
+- Pharmacy Management System
+- Blood Bank And Donation Management System
 
 PRODUCT_KEYWORDS_FILTER:
 - ThisIsACaseSensitiveExample
