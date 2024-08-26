@@ -188,6 +188,8 @@ DESCRIPTION_KEYWORDS_FILTER_I:
 - Warehouse Inventory System
 - Pharmacy Management System
 - Blood Bank And Donation Management System
+- ClassCMS
+- Fort Validator
 
 PRODUCT_KEYWORDS_I:
 - sudo
@@ -363,6 +365,8 @@ PRODUCT_KEYWORDS_FILTER_I:
 - Warehouse Inventory System
 - Pharmacy Management System
 - Blood Bank And Donation Management System
+- ClassCMS
+- Fort Validator
 
 PRODUCT_KEYWORDS_FILTER:
 - ThisIsACaseSensitiveExample
